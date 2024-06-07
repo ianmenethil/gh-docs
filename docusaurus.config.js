@@ -61,7 +61,7 @@ module.exports = {
 					position: 'right'
 				},
 				{
-					href: 'https://github.com/zenithpayments/',
+					href: 'https://github.com/ianmenethil/',
 					label: 'GitHub',
 					position: 'right'
 				}
@@ -93,12 +93,12 @@ module.exports = {
 					items: [
 						{
 							label: 'GitHub',
-							href: 'https://github.com/zenithpayments/'
+							href: 'https://github.com/ianmenethil/',
 						}
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} `
+			copyright: `Copyright © ${new Date().getFullYear()} Zenith Payments. All rights reserved.`
 		},
 		prism: {
 			theme: lightCodeTheme,
