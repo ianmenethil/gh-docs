@@ -1,4 +1,4 @@
-// F:\ZenDocs\docusaurus-2\src\components\Search\SearchBar.js
+// F:\ZenDocs\gh-docs\src\components\Search\SearchBar.js
 import React from 'react';
 import { DocSearch } from '@docsearch/react';
 import '@docsearch/css';

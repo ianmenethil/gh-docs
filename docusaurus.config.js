@@ -1,3 +1,4 @@
+// F:\ZenDocs\gh-docs\docusaurus.config.js
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
@@ -6,9 +7,10 @@ module.exports = {
 	tagline: 'Zenith Payments Docs -- Tagline',
 	trailingSlash: false,
 	url: 'http://docs.zenithpayments.com.au/',
-	baseUrl: 'https://ianmenethil.github.io/gh-docs/',
+	baseUrl: '/gh-docs/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'throw',
+	onDuplicateRoutes: 'throw',
 	favicon: 'img/favicon.ico',
 	organizationName: 'ianmenethil', // GitHub username
 	projectName: 'gh-docs', // Repository name
@@ -29,10 +31,25 @@ module.exports = {
 		]
 	],
 	themeConfig: {
+		docs: {
+			sidebar: {
+				hideable: true,
+				autoCollapseCategories: false
+			}
+		},
+		colorMode: {
+			defaultMode: 'dark',
+			disableSwitch: false,
+			respectPrefersColorScheme: true
+		},
 		navbar: {
 			title: 'Home',
-			logo: { alt: 'Zenith Payments Logo', src: 'img/zenpaylogo.png' },
+			logo: { alt: 'Zenith Payments Logo', src: 'img/zenpaylogo.png', width: 32, height: 32 },
 			items: [
+				{
+					type: 'search',
+					position: 'right'
+				},
 				{
 					type: 'doc',
 					docId: 'intro',
@@ -50,10 +67,6 @@ module.exports = {
 					docId: 'jquery-plugin/introduction',
 					position: 'left',
 					label: 'jQuery Plugin'
-				},
-				{
-					type: 'search',
-					position: 'right'
 				},
 				{
 					type: 'doc',
@@ -99,6 +112,7 @@ module.exports = {
 					]
 				}
 			],
+			logo: { alt: 'Zenith Payments Logo', src: 'img/zenpaylogo.png', width: 64, height: 64 },
 			copyright: `Copyright © ${new Date().getFullYear()} Zenith Payments. All rights reserved.`
 		},
 		prism: {

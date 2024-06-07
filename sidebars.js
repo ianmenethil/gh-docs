@@ -1,4 +1,4 @@
-// F:\ZenDocs\docusaurus-2\sidebars.js
+// F:\ZenDocs\gh-docs\sidebars.js
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [

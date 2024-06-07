@@ -1,4 +1,4 @@
-// F:\ZenDocs\docusaurus-2\src\components\Search\Hit.js
+// F:\ZenDocs\gh-docs\src\components\Search\Hit.js
 
 import React from 'react';
 import { Highlight } from 'react-instantsearch';
