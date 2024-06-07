@@ -10,7 +10,7 @@ module.exports = {
 	onBrokenMarkdownLinks: 'throw',
 	favicon: 'img/favicon.ico',
 	organizationName: 'ianmenethil', // GitHub username
-	projectName: 'ZenDocs', // Repository name
+	projectName: 'gh-docs', // Repository name
 	i18n: { defaultLocale: 'en', locales: ['en'] },
 	presets: [
 		[
