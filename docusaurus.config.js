@@ -4,6 +4,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 module.exports = {
 	title: 'Zenith Payments Documentation -- Title',
 	tagline: 'Zenith Payments Docs -- Tagline',
+	trailingSlash: false,
 	url: 'http://docs.zenithpayments.com.au/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
@@ -93,7 +94,7 @@ module.exports = {
 					items: [
 						{
 							label: 'GitHub',
-							href: 'https://github.com/ianmenethil/',
+							href: 'https://github.com/ianmenethil/'
 						}
 					]
 				}
