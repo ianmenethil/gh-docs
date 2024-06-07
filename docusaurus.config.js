@@ -6,7 +6,7 @@ module.exports = {
 	tagline: 'Zenith Payments Docs -- Tagline',
 	trailingSlash: false,
 	url: 'http://docs.zenithpayments.com.au/',
-	baseUrl: '/',
+	baseUrl: 'https://ianmenethil.github.io/gh-docs/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'throw',
 	favicon: 'img/favicon.ico',
