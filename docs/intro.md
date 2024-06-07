@@ -3,12 +3,22 @@ sidebar_position: 1
 id: intro
 title: Introduction
 ---
+import { BlueBoldText, RedBoldText, GreenBoldText, BlueText, GreenText, RedText } from '@site/src/components/Commons/CustomText';
 
 # Zenith Payments Developer Guide
 
 Welcome to the Zenith Payments documentation site. Here you will find comprehensive guides and documentation to help you integrate Zenith Payments solutions quickly and effectively.
 
-- Dolor labore dolor magna facer. Aliquyam id at vulputate accusam rebum justo invidunt vero duo consetetur elitr. Dolor sit duo invidunt et vulputate eirmod in eos amet vel ullamcorper dolore clita dolore tempor. Et sed tempor feugiat et sit. Placerat sit in sed. Commodo elitr erat accusam quod amet ea stet lorem dolor at. Ea sea ea erat magna stet sit molestie ipsum aliquip dolor ipsum est at magna. Sit stet nam rebum accusam lorem facer tempor lorem ut at dolor ea vero facilisi. Dolore erat nostrud stet sit no te vero laoreet feugait amet amet amet elitr minim aliquyam. Sed dolor qui nonummy consetetur tempor commodo esse nostrud nostrud sit. Amet ut vero no facilisis et voluptua sit justo duo ipsum ipsum feugiat vero elit eirmod diam quis. Tempor sed eos velit takimata tempor ullamcorper odio hendrerit clita sit ut duo quis. Sadipscing et eirmod vero zzril. Est nulla autem diam lorem et lorem tempor et erat sit dolor ea nonummy blandit. Aliquyam amet et sed labore ut nonumy vulputate kasd duo vero. Magna sanctus consectetuer et amet diam eu. Doming aliquyam sea et takimata blandit sit et sit.
+:::tip[Payment Methods]
+Zenith Payments supports various payment methods, including Credit/Debit Cards, Bank Debits, BPAY, PayID, and more.
+:::
+
+Expanding your business's capabilities is effortless with Zenith Payments. Our services include transaction processing and reporting, payer record management, and payment scheduling.
+
+We offer multiple payment methods, catering to both one-off and recurring payments, utilizing credit/debit cards, bank debits, BPAY, PayID, and more. Our payment processing options are continually expanding, with new methods being regularly integrated into our system.
+
+We offer multiple payment methods, catering to both one-off and recurring payments, utilizing credit/debit cards, bank debits, BPAY, PayID, and more. Our payment processing options are continually expanding, with new methods being regularly integrated into our system. Currently, we support payments in both <RedText>Australia</RedText> and <BlueText>New Zealand</BlueText>.
+
 ## Sections
 
 - [How To Get Started](./main/how-to-get-started)
